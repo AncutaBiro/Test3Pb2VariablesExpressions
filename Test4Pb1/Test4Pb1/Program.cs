@@ -29,9 +29,9 @@ namespace Test4Pb1
 
             int birdsSpeed = 2 * trainsSpeed;
 
-            double traveledDistancePerTrain = totalDistance / 2;
+            double traveledDistancePerTrain = (double) totalDistance / 2;
 
-            double OneFourthOfDistance = totalDistance * 0.25;
+            double OneFourthOfDistance = (double) totalDistance * 0.25;
 
             double remainingDistanceWhenTheBirdStartsFlying = traveledDistancePerTrain - OneFourthOfDistance;
 
